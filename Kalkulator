@@ -1,0 +1,26 @@
+# Odbieranie Liczb od Użytkownika
+Liczba1 = int(input("Podaj Pierwszą Liczbę: "))
+Liczba2 = int(input("Podaj Drugą Liczbę: "))
+
+
+# Dodawanie
+Wynik_Dodawania = Liczba1 + Liczba2
+print("Wynik Dodawania")
+print(f"{Liczba1} + {Liczba2} = {Wynik_Dodawania}")
+
+
+# Odejmowanie
+Wynik_Odejmowania = Liczba1 - Liczba2
+print("Wynik Odejmowania")
+print(f"{Liczba1} - {Liczba2} = {Wynik_Odejmowania}")
+
+
+#Mnożenie
+Wynik_Mnozenia = Liczba1 * Liczba2
+print("Wynik Mnożenia")
+print(f"{Liczba1} × {Liczba2} = {Wynik_Mnozenia}")
+
+# Dzielenie
+Wynik_Dzielenia = Liczba1 / Liczba2
+print("Wynik Dzielenia")
+print(f"{Liczba1} ÷ {Liczba2} = {Wynik_Dzielenia}")
