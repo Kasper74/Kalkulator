@@ -15,7 +15,7 @@ print("Wynik Odejmowania")
 print(f"{Liczba1} - {Liczba2} = {Wynik_Odejmowania}")
 
 
-#Mnożenie
+# Mnożenie
 Wynik_Mnozenia = Liczba1 * Liczba2
 print("Wynik Mnożenia")
 print(f"{Liczba1} × {Liczba2} = {Wynik_Mnozenia}")
