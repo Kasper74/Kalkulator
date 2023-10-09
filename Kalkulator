@@ -1,27 +1,40 @@
-# Odbieranie Liczb od Użytkownika
-Liczba1 = int(input("Podaj Pierwszą Liczbę: "))
-Liczba2 = int(input("Podaj Drugą Liczbę: "))
+print("Wybierz typ działania z poniższych opcji: ")
+print("1 - Dodawanie")
+print("2 - Odejmowanie")
+print("3 - Mnożenie")
+print("4 - Dzielenie")
+print("5 - Potęgowanie")
+dzialanie = int(input("Wybierz: "))
 
+if dzialanie == 1: 
+    a = int(input("Wpisz Pierwszą Liczbę : "))
+    b = int(input("Wpisz Drugą Liczbę : "))
+    c = a + b
+    print(f"Wynikiem dodawania liczb {a} i {b} jest {c}")
 
-# Dodawanie
-Wynik_Dodawania = Liczba1 + Liczba2
-print("Wynik Dodawania")
-print(f"{Liczba1} + {Liczba2} = {Wynik_Dodawania}")
+elif dzialanie == 2:
+    a = int(input("Wpisz Pierwszą Liczbę : "))
+    b = int(input("Wpisz Drugą Liczbę : "))
+    c = a - b
+    print(f"Wynikiem odejmowania liczb {a} i {b} jest {c}")
 
+elif dzialanie == 3:
+    a = int(input("Wpisz Pierwszą Liczbę : "))
+    b = int(input("Wpisz Drugą Liczbę : "))
+    c = a * b
+    print(f"Wynikiem mnożenia liczb {a} i {b} jest {c}")
 
-# Odejmowanie
-Wynik_Odejmowania = Liczba1 - Liczba2
-print("Wynik Odejmowania")
-print(f"{Liczba1} - {Liczba2} = {Wynik_Odejmowania}")
+elif dzialanie == 4:
+    a = int(input("Wpisz Pierwszą Liczbę : "))
+    b = int(input("Wpisz Drugą Liczbę : "))
+    c = a / b
+    print(f"Wynikiem dzielenia liczb {a} i {b} jest {c}")
 
+elif dzialanie == 5:
+    a = int(input("Wpisz Pierwszą Liczbę : "))
+    b = int(input("Wpisz Drugą Liczbę : "))
+    c = a ** b
+    print(f"Wynikiem potęgowania liczb {a} i {b} jest {c}")
 
-# Mnożenie
-Wynik_Mnozenia = Liczba1 * Liczba2
-print("Wynik Mnożenia")
-print(f"{Liczba1} × {Liczba2} = {Wynik_Mnozenia}")
-
-
-# Dzielenie
-Wynik_Dzielenia = Liczba1 / Liczba2
-print("Wynik Dzielenia")
-print(f"{Liczba1} ÷ {Liczba2} = {Wynik_Dzielenia}")
+else:
+    print("Podaj prawidłową opcję")
