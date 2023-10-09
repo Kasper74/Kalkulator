@@ -4,6 +4,7 @@ print("2 - Odejmowanie")
 print("3 - Mnożenie")
 print("4 - Dzielenie")
 print("5 - Potęgowanie")
+print("6 - Dzielenie z Resztą")
 dzialanie = int(input("Wybierz: "))
 
 if dzialanie == 1: 
@@ -36,5 +37,19 @@ elif dzialanie == 5:
     c = a ** b
     print(f"Wynikiem potęgowania liczb {a} i {b} jest {c}")
 
+elif dzialanie == 6:
+    a = int(input("Wpisz Pierwszą Liczbę : "))
+    b = int(input("Wpisz Drugą Liczbę : "))
+    c = a // b
+    d = a % b 
+    print(f"Wynikiem dzielenia liczb {a} i {b} jest {c} reszty {d}")
+
 else:
     print("Podaj prawidłową opcję")
+
+
+#  * Mnożenie 
+# / Dzielenie
+# ** Potęgowanie
+# // Pierwiastkowanie
+# % Reszta z dzielenia
