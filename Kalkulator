@@ -45,11 +45,4 @@ elif dzialanie == 6:
     print(f"Wynikiem dzielenia liczb {a} i {b} jest {c} reszty {d}")
 
 else:
-    print("Podaj prawidłową opcję")
-
-
-#  * Mnożenie 
-# / Dzielenie
-# ** Potęgowanie
-# // Pierwiastkowanie
-# % Reszta z dzielenia
+    print("Podaj prawidłową opcję!")
